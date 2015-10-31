@@ -6,20 +6,20 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         
-        <!--<item>
+        <item>
             <title>v1.5.0</title>
             <sparkle:releaseNotesLink>
                 https://radiant-player.github.io/radiant-player-mac/release-notes/v1.5.0.html
             </sparkle:releaseNotesLink>
-            <pubDate>Sat, 24 Oct 2015 03:11:28 +0000</pubDate>
+            <pubDate>Sat, 31 Oct 2015 22:18:33 +0000</pubDate>
             <enclosure 
-                url="https://radiant-player.github.io/radiant-player-mac/appcast/Radiant.Player.app.zip" 
+                url="https://github.com/radiant-player/radiant-player-mac/releases/download/v1.5.0/Radiant.Player.zip" 
                 sparkle:version="1.5.0" 
-                length="2680182" 
+                length="2673676" 
                 type="application/octet-stream" 
-                sparkle:dsaSignature="MC0CFB7rbTnuEXdpQXH4vKIOI6YkKL+fAhUAz9sYmT6E4qJDvwm14ZzOdmq3FWU=" 
+                sparkle:dsaSignature="MC4CFQCa2vrEpUVtAXjK2wWUwP460GjuVgIVALTsPhYGM7mMn0HC2e7bGXYKq2jC" 
             />
             <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
-        </item>-->
+        </item>
     </channel>
 </rss>

@@ -29,8 +29,8 @@
         </header>
 
         <section id="downloads" class="clearfix">
-          <a href="https://github.com/kbhomes/radiant-player-mac" id="view-on-github" class="button"><span>View on GitHub</span></a>
-          <a href="https://github.com/kbhomes/radiant-player-mac/releases/download/v1.4.1/Radiant.Player.app.zip" id="download-zip" class="button"><span>Download v1.4.1</span></a>
+          <a href="https://github.com/radiant-player/radiant-player-mac" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          <a href="https://github.com/radiant-player/radiant-player-mac/releases/download/v1.5.0/Radiant.Player.zip" id="download-zip" class="button"><span>Download v1.5.0</span></a>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_donations">
             <input type="hidden" name="business" value="sajidanwar94@gmail.com">
@@ -48,18 +48,27 @@
         </section>
         
         <span id="requirements">
+          Donations go to the project maintainer.
+          <br>
           <strong>No affiliation with Google.</strong> Requires Mac OS X 10.9 or above, and Adobe Flash Player.
           <div id="release-notes">
-            <a id="release-notes-link" href="https://github.com/kbhomes/radiant-player-mac/releases/tag/v1.4.1">Release notes for Radiant Player v1.4.1:</a>
-            <p>This is a small release that fixes the main bugs that made Radiant Player entirely unusable for a little while now. </p>
-
-            <ul>
-              <li>Fixed styling errors (fixes <a href="https://github.com/kbhomes/radiant-player-mac/issues/340" class="issue-link" title="Black theme stylings for 'Top songs'">#340</a>)</li>
-              <li>Used new copy of Web Components fallback (fixes <a href="https://github.com/kbhomes/radiant-player-mac/pull/352" class="issue-link" title="Replace both webcomponents.js and webcomponents.min.js with fallback">#352</a>, thank you <a href="https://github.com/jacobwgillespie" class="user-mention">@jacobwgillespie</a>)</li>
-              <li>Radiant Player launches properly on OS X El Capitan</li>
-            </ul>
-
-            <p>My apologies to everyone for being so unavailable, and thank you to those that provided unofficial binaries and code changes.</p>
+            <a id="release-notes-link" href="https://github.com/radiant-player/radiant-player-mac/releases/tag/v1.5.0">Release notes for Radiant Player v1.5.0:</a>
+            <div>
+                <p>Changes:</p>
+                <ul>
+                    <li>Use the Sparkle update framework for more intuitive and user-friendly update process</li>
+                    <li>Fix broken styling in Black theme (thanks <a href="https://github.com/shawn-mitch" class="user-mention">@shawn-mitch</a>)</li>
+                    <li>Fix broken media keys by catching up to Google update</li>
+                    <li>Fix broken Last.fm scrobbling in OS X 10.11 El Capitan (thanks <a href="https://github.com/chrismou" class="user-mention">@chrismou</a>)</li>
+                </ul>
+            	<p>This release is largely to fix issues affecting the usability of Radiant Player. However, 
+            		the largest piece of news is that development of Radiant Player has been moved into an 
+            		organization on GitHub, and a few collaborators have been brought on board in order to 
+            		help develop Radiant Player and fix outstanding issues.</p>
+                <p>Thank you to everyone who pushed 
+            		for this! I'm sorry for the incredible delay between versions and addressing major issues, 
+            		but hopefully this will be less of concern going forward with the new organization.</p>
+            </div>
           </div>
         </span>
 
@@ -122,7 +131,7 @@
         </section>
 
         <footer>
-          Radiant Player is developed by <a href="https://github.com/kbhomes">Sajid Anwar</a>. Originally created by <a href="http://jamesfator.com">James Fator</a> at <a href="https://github.com/JamesFator/GoogleMusicMac">JamesFator/GoogleMusicMac</a>.<br>
+          Radiant Player is maintained by <a href="https://github.com/kbhomes">Sajid Anwar</a>. <br>
           No affiliation with Google. Google Play is a trademark of Google Inc.<br>
           Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
         </footer>
