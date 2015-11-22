@@ -1,9 +1,19 @@
 # Change Log
 All notable changes to this project will be documented in this file.
-This file should follow the standards specified on [http://keepachangelog.com/]
+This file should follow the standards specified on [keepachangelog.com](http://keepachangelog.com/)
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
+### Added
+* Added [contribution guidelines](https://github.com/radiant-player/radiant-player-mac/blob/master/CONTRIBUTING.md) for anyone wanting to contribute code to Radiant ([#401](https://github.com/radiant-player/radiant-player-mac/pull/401))
+
+### Changed
+* Updated to work with Google's latest updates ([#397](https://github.com/radiant-player/radiant-player-mac/pull/397))
+
+### Fixed
+* Fixed broken notifications and mini-player updates ([#400](https://github.com/radiant-player/radiant-player-mac/pull/400))
+* Fixed crash when opening Last.fm history by allowing communication with Last.fm API servers ([#389](https://github.com/radiant-player/radiant-player-mac/pull/389), ([#400](https://github.com/radiant-player/radiant-player-mac/pull/400)))
+* Restored the ability to move the window by the title bar ([#413](https://github.com/radiant-player/radiant-player-mac/pull/413))
 
 ## [1.5.0] - 2015-10-31
 This release is largely to fix issues affecting the usability of Radiant Player. However, the largest piece of news is that development of Radiant Player has been moved into an organization on GitHub, and a few collaborators have been brought on board in order to help develop Radiant Player and fix outstanding issues. Thank you to everyone who pushed for this! I'm sorry for the incredible delay between versions and addressing major issues, but hopefully this will be less of concern going forward with the new organization.
