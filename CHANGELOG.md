@@ -12,16 +12,16 @@ This release is largely to fix issues affecting the usability of Radiant Player.
 * Use the Sparkle update framework for more intuitive and user-friendly update process
 
 ### Fixed
-* Fix broken styling in Black theme (thanks @shawn-mitch)
+* Fix broken styling in Black theme (thanks [@shawn-mitch](https://github.com/shawn-mitch))
 * Fix broken media keys by catching up to Google update
-* Fix broken Last.fm scrobbling in OS X 10.11 El Capitan (thanks @chrismou)
+* Fix broken Last.fm scrobbling in OS X 10.11 El Capitan (thanks [@chrismou](https://github.com/chrismou))
 
 ## [1.4.1] - 2015-09-14
 This is a small release that fixes the main bugs that made Radiant Player entirely unusable for a little while now. My apologies to everyone for being so unavailable, and thank you to those that provided unofficial binaries and code changes.
 
 ### Fixed
-* Fixed styling errors (fixes #340)
-* Used new copy of Web Components fallback (fixes #352, thank you @jacobwgillespie)
+* Fixed styling errors (fixes [#340](https://github.com/radiant-player/radiant-player-mac/issues/340))
+* Used new copy of Web Components fallback (fixes [#352](https://github.com/radiant-player/radiant-player-mac/issues/352), thank you [@jacobwgillespie](https://github.com/jacobwgillespie))
 * Radiant Player launches properly on OS X El Capitan
 
 ## [1.4.0] - 2015-06-04
@@ -29,19 +29,19 @@ At long last, the actual next version!  Many thanks to all the testers of the tw
 
 ### Added
 * Support Google Play Music's latest redesign
-* Add support for `⌘[` and `⌘]` keyboard shortcuts to go forward and backward (fixes #296, thanks @gholts)
-* Implement `⌘A` (select all) shortcut (fixes #317)
+* Add support for `⌘[` and `⌘]` keyboard shortcuts to go forward and backward (fixes [#296](https://github.com/radiant-player/radiant-player-mac/issues/296), thanks [@gholts](https://github.com/gholts))
+* Implement `⌘A` (select all) shortcut (fixes [#317](https://github.com/radiant-player/radiant-player-mac/issues/317))
 
 ### Changes
-* Mac OS X 10.8 is no longer supported (see #291 for progress, if any, on the possibility of re-instating support)
+* Mac OS X 10.8 is no longer supported (see [#291](https://github.com/radiant-player/radiant-player-mac/issues/291) for progress, if any, on the possibility of re-instating support)
 * Removed all styles except for Google and Black (formerly Spotify Black) due to incompatibility with the new redesign; I will be looking into porting one or two of the original styles to the new design
-* Allow mini player to be used in other full screen applications (fixes #79)
+* Allow mini player to be used in other full screen applications (fixes [#79](https://github.com/radiant-player/radiant-player-mac/issues/79))
 * Open release page instead of home page when a new version is available
 
 ### Fixed
-* Prevent brief 'ghost' mini player while switching spaces (fixes #309)
-* Allow reload button to be clicked when internet connectivity is lost while first loading Google Play Music (fixes #313)
-* Prevent dragging of file onto main window (fixes #307, thanks @nielstholenaar)
+* Prevent brief 'ghost' mini player while switching spaces (fixes [#309](https://github.com/radiant-player/radiant-player-mac/issues/309))
+* Allow reload button to be clicked when internet connectivity is lost while first loading Google Play Music (fixes [#313](https://github.com/radiant-player/radiant-player-mac/issues/313))
+* Prevent dragging of file onto main window (fixes [#307](https://github.com/radiant-player/radiant-player-mac/issues/307), thanks [@nielstholenaar](https://github.com/nielstholenaar))
 
 ## [1.3.3.2-beta] - 2015-06-03
 
@@ -64,7 +64,7 @@ This beta release catches up to the Google Play Music redesign, along with a few
 
 My apologies! In a major oversight, I managed to include the usage of a OS X 10.10 only method which appears to be causing crashes on OS X 10.9 and below. This new version contains that fix!
 
-It also contains a new feature, which is a preference that allows you to show the current song's album art as the dock icon! Many thanks to @matthewlloyd for that one.
+It also contains a new feature, which is a preference that allows you to show the current song's album art as the dock icon! Many thanks to [@matthewlloyd](https://github.com/matthewlloyd) for that one.
 
 ## [1.3.2] - 2015-04-04
 This release took a ridiculous amount of time, my apologies!
@@ -73,15 +73,15 @@ Many thanks to all of the contributors and users! With the creation of the beta 
 
 ### Added
 * Introduce release channels `stable` and `beta`, which can be changed in the Preferences menu
-* New style, Light (thanks @stevenla)
+* New style, Light (thanks [@stevenla](https://github.com/stevenla))
 * Warn user when Flash plug-in is out-of-date and blocked
 * Mini player can be undocked by dragging it away from the menu
 
 ### Fixed
 * Dramatically improved CPU performance
-* Use high-quality album art for mini-player (fixes #270)
-* Fix thumbs and star ratings (fixes #245, #250, #254)
-* Asynchronously load album art for notifications (fixes #262)
+* Use high-quality album art for mini-player (fixes [#270](https://github.com/radiant-player/radiant-player-mac/issues/270))
+* Fix thumbs and star ratings (fixes [#245](https://github.com/radiant-player/radiant-player-mac/issues/245), [#250](https://github.com/radiant-player/radiant-player-mac/issues/250), [#254](https://github.com/radiant-player/radiant-player-mac/issues/254))
+* Asynchronously load album art for notifications (fixes [#262](https://github.com/radiant-player/radiant-player-mac/issues/262))
 * Many, many others!
 
 ## [1.3.1] - 2014-10-16
@@ -103,15 +103,15 @@ My apologies that it took so long to release something, and that many of you in 
 * Fix separate cookie storage
 
 ## [1.2.1] - 2015-06-18
-Many thanks to @tonybaroneee for style updates, as well as to all the contributors that reported this problem.
+Many thanks to [@tonybaroneee](https://github.com/tonybaroneee) for style updates, as well as to all the contributors that reported this problem.
 
 ### Fixed
-* Fix bug due to Google Play Music site change that caused Radiant Player to not work correctly (see #196)
+* Fix bug due to Google Play Music site change that caused Radiant Player to not work correctly (see [#196](https://github.com/radiant-player/radiant-player-mac/issues/196))
 
 ## [1.2.0] - 2015-06-05
 Lots of new features! In this release, the project has also finally completed the transition from `google-music-mac` to the name `radiant-player-mac`.
 
-Many thanks to @tonybaroneee, @joshgordon, @se-bastiaan, @codingismy11to7, @apfelbox, and all of the contributors and users!
+Many thanks to [@tonybaroneee](https://github.com/tonybaroneee), [@joshgordon](https://github.com/joshgordon), [@se-bastiaan](https://github.com/se-bastiaan), [@codingismy11to7](https://github.com/codingismy11to7), [@apfelbox](https://github.com/apfelbox), and all of the contributors and users!
 
 ### Added
 * Separate cookie storage from Safari by default (for OS X 10.9 and above only)
@@ -121,25 +121,25 @@ Many thanks to @tonybaroneee, @joshgordon, @se-bastiaan, @codingismy11to7, @apfe
 * Pause music when system sleeps
 
 ### Fixed
-* Prevent usage of discrete GPU (fixes #142)
-* Fix bugs related to application of navigation features and account information (fixes #151, #157, #158)
-* Fix bugs related to erratic movement of Radiant Player window when dragging (fixes #168)
-* Prevent full screen when in no-dock-icon mode (fixes #152, #153)
-* Fix title bar text colors of certain styles (fixes #135)
+* Prevent usage of discrete GPU (fixes [#142](https://github.com/radiant-player/radiant-player-mac/issues/142))
+* Fix bugs related to application of navigation features and account information (fixes [#151](https://github.com/radiant-player/radiant-player-mac/issues/151), [#157](https://github.com/radiant-player/radiant-player-mac/issues/157), [#158](https://github.com/radiant-player/radiant-player-mac/issues/158))
+* Fix bugs related to erratic movement of Radiant Player window when dragging (fixes [#168](https://github.com/radiant-player/radiant-player-mac/issues/168))
+* Prevent full screen when in no-dock-icon mode (fixes [#152](https://github.com/radiant-player/radiant-player-mac/issues/152), [#153](https://github.com/radiant-player/radiant-player-mac/issues/153))
+* Fix title bar text colors of certain styles (fixes [#135](https://github.com/radiant-player/radiant-player-mac/issues/135))
 
 ## [1.1.3] - 2014-04-12
 ### Added
-* New theme: [Dark Flat](http://radiant-player.github.io/radiant-player-mac/images/styles/dark-flat.png) (thanks to @hoffi)
-* New theme: [Spotify Black](http://radiant-player.github.io/radiant-player-mac/images/styles/spotify-black.png) (thanks to @tonybaroneee)
+* New theme: [Dark Flat](http://radiant-player.github.io/radiant-player-mac/images/styles/dark-flat.png) (thanks to [@hoffi](https://github.com/hoffi))
+* New theme: [Spotify Black](http://radiant-player.github.io/radiant-player-mac/images/styles/spotify-black.png) (thanks to [@tonybaroneee](https://github.com/tonybaroneee))
 * Last.fm button that shows a popover with your most recent tracks ([preview](http://radiant-player.github.io/radiant-player-mac/images/lastfm-button.png))
 * Ability to automatically love/unlove a track on Last.fm based on the song's rating (thumbs up/down)
 * Ability to hide the Google apps and notifications buttons
 
 ### Fixed
 * Multiple fixes for proper Mac OS X 10.8 support
-* Fix: don't accidentally break Quick Look due to media keys support (fixes #117)
-* Fix: performance of dark styles dramatically improved (fixes #90, #120)
-* Fix: mini player supports multiple screens, edge of current screen (fixes #108)
+* Fix: don't accidentally break Quick Look due to media keys support (fixes [#117](https://github.com/radiant-player/radiant-player-mac/issues/117))
+* Fix: performance of dark styles dramatically improved (fixes [#90](https://github.com/radiant-player/radiant-player-mac/issues/90), [#120](https://github.com/radiant-player/radiant-player-mac/issues/120))
+* Fix: mini player supports multiple screens, edge of current screen (fixes [#108](https://github.com/radiant-player/radiant-player-mac/issues/108))
 
 ## [1.1.2] - 2014-03-27
 So the name change is a pretty noticeable feature. Google's trademark team contacted me recently and politely asked that I change the name of the application and use a different logo. This is what I came up with (picking a name is surprisingly difficult, as is icon design). This release is a little light on new features as I had to implement this name change as soon as possible.
@@ -148,37 +148,37 @@ Update checking should work correctly for now as the repository name is still co
 
 ### Added
 * Introduce alternate mini player ([preview](http://radiant-player.github.io/radiant-player-mac/images/mini-player-alternate.png))
-* Implement seamless title bar for original Google theme (#72)
+* Implement seamless title bar for original Google theme [#73](https://github.com/radiant-player/radiant-player-mac/issues/72))
 * Introduce dark style, similar to Spotify
 
 ### Fixed
-* Prevent crash when internet or GitHub is down (fixes #73)
-* Activate application when clicking on a notification (fixes #66)
-* Prevent crash when using the wrong password for Last.fm on OS X 10.8 (fixes #81)
+* Prevent crash when internet or GitHub is down (fixes [#73](https://github.com/radiant-player/radiant-player-mac/issues/73))
+* Activate application when clicking on a notification (fixes [#66](https://github.com/radiant-player/radiant-player-mac/issues/66))
+* Prevent crash when using the wrong password for Last.fm on OS X 10.8 (fixes [#81](https://github.com/radiant-player/radiant-player-mac/issues/81))
 
 ## [1.1.1] - 2014-03-09
 ### Fixed
 - Seems that the uploaded version v1.1.0 build had a problem with the preferences window not properly opening. This v1.1.1 should be working correctly.
 
 ## [1.1.0] - 2014-03-09
-Many thanks to @JamesFator, @anantn, @zfy0701, @daktales, @zwaldowski, and everybody who opened up issues for progress towards this release.
+Many thanks to [@JamesFator](https://github.com/JamesFator), [@anantn](https://github.com/anantn), [@zfy0701](https://github.com/zfy0701), [@daktales](https://github.com/daktales), [@zwaldowski](https://github.com/zwaldowski), and everybody who opened up issues for progress towards this release.
 
 ### Added
 * Mini player popup in menu bar
-* Last.fm integration - #33
+* Last.fm integration - [#33](https://github.com/radiant-player/radiant-player-mac/issues/33)
 * Automatically check and notify for version updates
-* Added menu to dock icon (identical to Controls menu) - #53
+* Added menu to dock icon (identical to Controls menu) - [#53](https://github.com/radiant-player/radiant-player-mac/issues/53)
 * Enable two and three finger swipe to go back/forward
-* Enable AppleScript support - #60
-* Add option to use iTunes-style notifications (skip button, album art as main image) - #61
-* Add option to keep Google Play logo instead of replacing fully with back/forward buttons - #52
+* Enable AppleScript support - [#60](https://github.com/radiant-player/radiant-player-mac/issues/60)
+* Add option to use iTunes-style notifications (skip button, album art as main image) - [#61](https://github.com/radiant-player/radiant-player-mac/issues/61)
+* Add option to keep Google Play logo instead of replacing fully with back/forward buttons - [#52](https://github.com/radiant-player/radiant-player-mac/issues/52)
 * Add option to hide dock icon when mini player is enabled
 
 ### Fixed
-* Implemented file upload dialog - #45, #62
-* Implemented select all (⌘A) - #57
-* Fixed thumbs up/down images - #56, #59
-* Fixed bug preventing Adobe Fireworks mouse interaction - #40
+* Implemented file upload dialog - [#45](https://github.com/radiant-player/radiant-player-mac/issues/45), [#62](https://github.com/radiant-player/radiant-player-mac/issues/62)
+* Implemented select all (⌘A) - [#57](https://github.com/radiant-player/radiant-player-mac/issues/57)
+* Fixed thumbs up/down images - [#56](https://github.com/radiant-player/radiant-player-mac/issues/56), [#59](https://github.com/radiant-player/radiant-player-mac/issues/59)
+* Fixed bug preventing Adobe Fireworks mouse interaction - [#40](https://github.com/radiant-player/radiant-player-mac/issues/40)
 
 ## [1.0.3] - 2014-02-27
 ### Added
